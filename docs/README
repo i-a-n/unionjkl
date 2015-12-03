@@ -1,0 +1,32 @@
+This is the union.io Jekyll site. Hi.
+
+Here's the structure:
+---
+public_html/
+| - _site/                          // Destination for compiled site. Don't touch.
+| - css/                            // Destination for compiled css. Don't touch.
+| - js/                             // Both compiled and ugly JS goes here
+|   | - file.js                         // Ugly JS. Touch.
+|   | - file.min.js                     // Grunt makes these. Don't touch.
+| - less/                           // LESS/CSS. Touch.
+| - _config.yml                     // Jekyll config. See Jekyll docs.
+|
+| - _posts/                         // Posts
+|   | - 2015-01-01-title.markdown       // Post naming scheme
+| - _layouts/                       // Templates
+| - _includes/                      // Basic header/body/footer includes
+| - file.html                       // A page. See header of existing one for syntax.
+
+
+Here's how to build:
+---
+1. Get all the files from github.
+`git clone git@github.com:i-a-n/unionjkl.git'
+
+2. cd into it, then install and run grunt.
+`npm install grunt -g; npm install; grunt watch'
+
+3. Then serve it through Jekyll.
+`jekyll serve --watch'
+
+4. Site will live (by default) on http://0.0.0.0:4000/

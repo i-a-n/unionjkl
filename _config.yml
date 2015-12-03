@@ -1,7 +1,7 @@
 # Site settings
 title: union.io
-header-img: img/home-bg.jpg
-email: ian@union.io 
+header-img: img/home-bg.png
+email: ian@union.io
 description: "union.io site"
 baseurl: ""
 url: "http://union.io"
