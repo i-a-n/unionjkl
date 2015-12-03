@@ -19,6 +19,11 @@ p {
 	}
 }
 
+article p {
+	text-indent: 1em;
+	text-align: justify;
+}
+
 h1,
 h2,
 h3,
@@ -54,6 +59,13 @@ hr.small {
 	margin: 15px auto;
 	border-width: 4px;
 	border-color: white;
+}
+.illuminated-letter {
+	font-size: 88px;
+    font-weight: bold;
+    line-height: 0;
+    margin-right: -3px;
+    text-shadow: 1px 1px 3px #fff, 0px 4px 3px rgba(0,0,0,.3);
 }
 
 // Navigation
@@ -239,19 +251,19 @@ hr.small {
 			color: @brand-primary;
 		}
 		> .post-title {
-			font-size: 30px;
+			font-size: 29px;
 			margin-top: 30px;
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
 		> .post-subtitle {
 			margin: 0;
 			font-weight: 300;
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
 	}
 	> .post-meta {
 		color: @gray;
-		font-size: 18px;
+		font-size: 16px;
 		font-style: italic;
 		margin-top: 0;
 		> a {

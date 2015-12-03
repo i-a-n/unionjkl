@@ -10,6 +10,10 @@ p {
 p a {
   text-decoration: underline;
 }
+article p {
+  text-indent: 1em;
+  text-align: justify;
+}
 h1,
 h2,
 h3,
@@ -39,6 +43,13 @@ hr.small {
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
+}
+.illuminated-letter {
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 0;
+  margin-right: -3px;
+  text-shadow: 1px 1px 3px #ffffff, 0px 4px 3px rgba(0, 0, 0, 0.3);
 }
 .navbar-custom {
   background: white;
@@ -214,18 +225,18 @@ hr.small {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 29px;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   margin-top: 0;
 }
