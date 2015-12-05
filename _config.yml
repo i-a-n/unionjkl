@@ -2,11 +2,11 @@
 title: union.io
 header-img: img/home-bg.png
 email: ian@union.io
-description: "union.io site"
+description: "union.io — Tech, design, and typographic anger"
 baseurl: ""
-url: "http://union.io"
+url: "http://blog.union.io"
 twitter_username: union_io
-github_username:  ian
+github_username:  i-a-n
 facebook_username:  65MYA
 
 # Build settings

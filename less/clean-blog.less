@@ -60,12 +60,22 @@ hr.small {
 	border-width: 4px;
 	border-color: white;
 }
+hr.notSmall {
+	border-width: 4px;
+	border-color: white;
+	margin: 20px auto;
+}
 .illuminated-letter {
 	font-size: 88px;
     font-weight: bold;
     line-height: 0;
     margin-right: -3px;
     text-shadow: 1px 1px 3px #fff, 0px 4px 3px rgba(0,0,0,.3);
+	color: @brand-primary;
+}
+.meta-dateOnly {
+	text-align: right;
+	font-weight: bold;
 }
 
 // Navigation
@@ -229,6 +239,7 @@ hr.small {
 				color: white;
 			}
 		}
+
 		@media only screen and (min-width: 768px) {
 			h1 {
 				font-size: 55px;
@@ -275,6 +286,7 @@ hr.small {
 				text-decoration: underline;
 			}
 		}
+
 	}
 	@media only screen and (min-width: 768px) {
 		> a {
@@ -444,32 +456,4 @@ form .row:first-child .floating-label-form-group {
 			cursor: not-allowed;
 		}
 	}
-}
-
-// -- Highlight Color Customization
-
-::-moz-selection {
-	color: white;
-	text-shadow: none;
-	background: @brand-primary;
-}
-
-::selection {
-	color: white;
-	text-shadow: none;
-	background: @brand-primary;
-}
-
-img::selection {
-	color: white;
-	background: transparent;
-}
-
-img::-moz-selection {
-	color: white;
-	background: transparent;
-}
-
-body {
-	webkit-tap-highlight-color: @brand-primary;
 }
