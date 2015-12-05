@@ -13,6 +13,9 @@ layout: default
                         <hr class="notSmall">
                         <h3 class="subheading">{{ page.subtitle }}</h3>
                     {% endif %}
+                    {% if page.readtime %}
+                        <div class="meta">Estimated reading time: {{ page.readtime }}</div>
+                    {% endif %}
                 </div>
             </div>
         </div>
