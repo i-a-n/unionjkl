@@ -1,7 +1,8 @@
-This is the union.io Jekyll site. Hi.
+##This is the union.io Jekyll site. Hi.
 
-Here's the structure:
+###Here's the structure:
 ---
+```
 public_html/
 | - _site/                          // Destination for compiled site. Don't touch.
 | - css/                            // Destination for compiled css. Don't touch.
@@ -16,22 +17,22 @@ public_html/
 | - _layouts/                       // Templates
 | - _includes/                      // Basic header/body/footer includes
 | - file.html                       // A page. See header of existing one for syntax.
+```
 
-
-Here's how to build:
+###Here's how to build:
 ---
 1. Get all the files from github.
-`git clone git@github.com:i-a-n/unionjkl.git'
+`$git clone git@github.com:i-a-n/unionjkl.git`
 
 2. cd into it, then install and run grunt.
-`npm install grunt -g; npm install; grunt watch'
+`$npm install grunt -g; npm install; grunt watch`
 
 3. Then serve it through Jekyll.
-`jekyll serve --watch'
+`#jekyll serve --watch`
 
 4. Site will live (by default) on http://0.0.0.0:4000/
 
-Here's how to deploy:
+###Here's how to deploy:
 ---
 I have .gitignore set to ignore a file called 'deploy.sh' in the root of the project. This would be a good place to put a deploy script. My current one simply builds the site, then uses scp to move the files onto my web server. Here's one dumb, current script:
 
