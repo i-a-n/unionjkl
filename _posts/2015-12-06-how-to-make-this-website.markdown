@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      "How to Make This Website"
-subtitle:   "The blog you're looking at was a labor of love. Here's how I made it."
-date:       2015-12-16 12:00:00
-header-img: "img/post-bg-make-this-website-1.jpg"
-published:  true
-category:   Code
-readtime:   "25 minutes"
+layout:         post
+title:          "How to Make This Website"
+subtitle:       "The blog you're looking at was a labor of love. Here's how I made it."
+date:           2015-12-16 12:00:00
+header-img:     "img/post-bg-make-this-website-1.jpg"
+thumbnail-img:  "img/post-thumb-make-this-website-1.jpg"
+published:      true
+category:       Code
+readtime:       "20 minutes"
 ---
 
 <p><span class='illuminated-letter'>E</span>very so often it happens that a web developer wakes up one afternoon and decides, against everyone's best judgment, they need a personal website. It could be for professional reasons, or personal ones, or just to try out a new platform. Whatever the case, the web developer will then promptly put off starting the project for a minimum of three months.</p>
