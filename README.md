@@ -4,4 +4,3 @@ This is a customized version of the "Clean Blog" theme, maintained here: https:/
 
 See /docs for documentation specific to this site.
 
-
