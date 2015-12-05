@@ -2,7 +2,7 @@
 layout:     post
 title:      "The Art of Rolling"
 subtitle:   "Smoking is sexy. Don't do it."
-date:       2015-08-24 12:00:00
+date:       2015-06-04 12:00:00
 header-img: "img/post-bg-01.jpg"
 published:  true
 category:   "Video"
