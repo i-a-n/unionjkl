@@ -1,3 +1,5 @@
 #union.io jekyll site
 
-See /docs for documentation.
+This is a customized version of the "Clean Blog" theme, maintained here: https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll
+
+See /docs for documentation specific to this site.
