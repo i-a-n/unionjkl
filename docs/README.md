@@ -34,12 +34,12 @@ public_html/
 
 ###Here's how to deploy:
 ---
-I have .gitignore set to ignore a file called 'deploy.sh' in the root of the project. This would be a good place to put a deploy script. My current one simply builds the site, then uses scp to move the files onto my web server. Here's one dumb, current script:
+I have .gitignore set to ignore a file called 'deploy.sh' in the root of the project. This would be a good place to put a deploy script. My current one simply builds the site, then uses rsync to move the files onto my web server. Here's one dumb, current script:
 
 ```
 #!/bin/bash
 
 jekyll build
-scp -r _site/* union.io:/var/www/vhosts/blog.union.io/site/
+rsync -a _site/* union.io:/var/www/vhosts/blog.union.io/site/
 ```
-End result: I have to manually run `deploy.sh' whenever I want to deploy. Not the coolest thing but it works.
+End result: I have to manually run `deploy.sh' whenever I want to deploy. Not the coolest thing. But, honestly, more stable than dealing with CD or post-commit hooks or whatever.
