@@ -6,7 +6,7 @@ date:       2014-08-24 12:00:00
 author:     "Start Bootstrap"
 header-img: "img/post-bg-04.jpg"
 thumbnail-img: "img/post-thumb-04.jpg"
-published:  true
+published:  false
 permalink:  "/copy-me-im-the-default"
 ---
 
