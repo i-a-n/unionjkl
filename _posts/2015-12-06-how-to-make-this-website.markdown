@@ -2,7 +2,7 @@
 layout:         post
 title:          "How to Make This Website"
 subtitle:       "The blog you're looking at was a labor of love. Here's how I made it."
-date:           2015-12-16 12:00:00
+date:           2015-12-06 12:00:00
 header-img:     "img/post-bg-make-this-website-1.jpg"
 thumbnail-img:  "img/post-thumb-make-this-website-1.jpg"
 published:      true
