@@ -5,12 +5,12 @@
   <meta content="{{ site.title }}" property="og:title">
 {% endif %}
 {% if page.title %}
-  <meta content="article" property="og:type">
+  <meta property="og:type" content="article" />
 {% else %}
-  <meta content="website" property="og:type">
+  <meta property="og:type" content="website" />
 {% endif %}
-{% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
+{% if page.subtitle %}
+  <meta content="{{ page.subtitle }}" property="og:description">
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
 {% endif %}
@@ -22,9 +22,9 @@
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
 {% if page.thumbnail-img %}
-  <meta content="/{{ page.thumbnail-img }}" property="og:image">
+  <meta content="{{ site.url }}/{{ page.thumbnail-img }}" property="og:image">
 {% else %}
-  <meta content="/img/post-thumb-default.png" property="og:image">
+  <meta content="{{ site.url }}/img/post-thumb-default.png" property="og:image">
 {% endif %}
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
