@@ -2,7 +2,8 @@
 layout:     post
 title:      "These Six UX Mistakes Are Sabotaging Your Brand"
 date:       2015-12-17 12:00:00
-header-img: "img/post-bg-01.jpg"
+header-img: "img/post-bg-ux-mistakes-1.jpg"
+thumbnail-img:  "img/post-thumb-mistakes-1.jpg"
 published:  true
 category:   "Code"
 readtime:   "8 minutes"
@@ -43,7 +44,7 @@ Branding doesn’t start with the logo. It is not primarily a visual discipline.
 <p>If you see a product that describes itself as "premium", substitute that word with "basic". Because that's what it is.</p>
 
 <h2 class="section-heading">3. Hijacking basic user actions</h2>
-<img src="http://union.io/images/repo/20151217-02--7d0d2b.png" class="full">
+<img src="http://union.io/images/repo/20151218-02--1405f1.jpg" class="full">
 <span class="caption text-muted">This is what happened when I right-clicked in this textarea. If you aren't mad, you aren't human.</span>
 <p>Good lord, look at this nonsense. Hijacking a basic user action, like right-clicking or closing a tab, is a critical error in judgement. It conveys, loud and clear, that your user experience managers are grasping at straws, and think an immersive web experience means they must control everything you do. &ldquo;Let's transport the user to another dimension, where they live exclusively in our world-wide-webpage!&rdquo; is the implied calling card of a flailing, out-of-touch brand that implements tone-deaf mouse hijacking.</p>
 
