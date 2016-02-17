@@ -22,6 +22,15 @@ p {
 article p {
 	text-indent: 1em;
 	text-align: justify;
+	font-kerning: normal;
+	letter-spacing: .02em;
+	font-variant-ligatures: common-ligatures, contextual;
+	font-variant-numeric: oldstyle-nums, proportional-nums;
+	font-variant-caps: all-small-caps;
+	-moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	-ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	-webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
 }
 
 h1,
@@ -461,4 +470,9 @@ form .row:first-child .floating-label-form-group {
 			cursor: not-allowed;
 		}
 	}
+}
+
+/** utils **/
+.spacer {
+	height: 20px;
 }
