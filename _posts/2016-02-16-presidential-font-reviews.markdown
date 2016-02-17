@@ -4,9 +4,9 @@ title:          "The Best and Worst Fonts on the Campaign Trail, Ranked"
 subtitle:       "Reviewing typefaces from the 2016 Presidential candidates"
 date:           2016-02-16 12:00:00
 header-img:     "img/post-bg-presidential-fonts-1.jpg"
-thumbnail-img:  "img/post-thumb-presidential-fonts.jpg"
+thumbnail-img:  "img/post-thumb-presidential-fonts-1.jpg"
 published:      true
-category:       Typography
+category:       Type
 readtime:       "8 minutes"
 ---
 
