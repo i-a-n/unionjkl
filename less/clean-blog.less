@@ -31,6 +31,12 @@ article p {
 	-ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
 	-webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
 	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+
+	@media only screen and (max-width: 615px) {
+		font-size: .79em;
+		line-height: 1.67em;
+		text-align: left;
+	}
 }
 
 h1,
@@ -90,6 +96,13 @@ hr.notSmall {
 article img.full {
 	min-width: 90%;
     margin: 0 auto;
+}
+
+body .container {
+	@media only screen and (max-width: 615px) {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
 }
 
 // Navigation

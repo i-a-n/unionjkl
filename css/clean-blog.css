@@ -23,6 +23,13 @@ article p {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
   font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
 }
+@media only screen and (max-width: 615px) {
+  article p {
+    font-size: .79em;
+    line-height: 1.67em;
+    text-align: left;
+  }
+}
 h1,
 h2,
 h3,
@@ -73,6 +80,12 @@ hr.notSmall {
 article img.full {
   min-width: 90%;
   margin: 0 auto;
+}
+@media only screen and (max-width: 615px) {
+  body .container {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
 .navbar-custom {
   background: white;
