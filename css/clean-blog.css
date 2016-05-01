@@ -1,7 +1,7 @@
 body {
-  font-family: 'Lora', 'Georgia', 'Times', serif;
-  font-size: 20px;
-  color: #404040;
+  font-family: 'Yrsa', 'Georgia', 'Times', serif;
+  font-size: 21.5px;
+  color: #474747;
 }
 p {
   line-height: 1.5;
@@ -12,9 +12,14 @@ p a {
 }
 article p {
   text-indent: 1em;
-  text-align: justify;
+  letter-spacing: -0.002em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-rendering: optimizeLegibility;
+  line-height: 1.42;
   font-kerning: normal;
-  letter-spacing: .02em;
   font-variant-ligatures: common-ligatures, contextual;
   font-variant-numeric: oldstyle-nums, proportional-nums;
   font-variant-caps: all-small-caps;
@@ -25,9 +30,8 @@ article p {
 }
 @media only screen and (max-width: 615px) {
   article p {
-    font-size: .79em;
-    line-height: 1.67em;
-    text-align: left;
+    font-size: .9em;
+    line-height: 1.5em;
   }
 }
 h1,
@@ -36,11 +40,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: 800;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-rendering: optimizeLegibility;
 }
 a {
-  color: #404040;
+  color: #474747;
 }
 a:hover,
 a:focus {
@@ -94,16 +103,21 @@ article img.full {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 800;
+  font-weight: 600;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-rendering: optimizeLegibility;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -152,14 +166,14 @@ article img.full {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #474747;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #6e44ad;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #474747;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -211,14 +225,15 @@ article img.full {
   font-size: 24px;
   line-height: 1.1,
 			display: block;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 94px;
+    letter-spacing: -0.05em;
   }
 }
 .intro-header .post-heading h1 {
@@ -230,13 +245,13 @@ article img.full {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Georgia', 'Times', serif;
+  font-family: 'Yrsa', 'Georgia', 'Times', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -253,7 +268,7 @@ article img.full {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: #474747;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -261,24 +276,28 @@ article img.full {
   color: #6e44ad;
 }
 .post-preview > a > .post-title {
-  font-size: 29px;
+  font-size: 30px;
   margin-top: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  line-height: 89%;
+  letter-spacing: -0.005em;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
-  margin-bottom: 15px;
+  margin-bottom: 13px;
+  letter-spacing: -0.03em;
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
   margin-top: 0;
+  font-weight: 300;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #474747;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -287,7 +306,7 @@ article img.full {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 38px;
   }
 }
 .section-heading {
@@ -368,7 +387,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -391,7 +410,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -418,7 +437,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #404040;
+  background-color: #474747;
   cursor: not-allowed;
 }
 /** utils **/
