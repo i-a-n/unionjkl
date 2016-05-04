@@ -22,7 +22,6 @@ article p {
   font-kerning: normal;
   font-variant-ligatures: common-ligatures, contextual;
   font-variant-numeric: oldstyle-nums, proportional-nums;
-  font-variant-caps: all-small-caps;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
   -ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
@@ -85,6 +84,16 @@ hr.notSmall {
 .meta-dateOnly {
   text-align: right;
   font-weight: bold;
+}
+.float--left {
+  float: left;
+  max-width: 33%;
+  margin-right: 25px;
+}
+.float--right {
+  float: right;
+  max-width: 33%;
+  margin-left: 25px;
 }
 article img.full {
   min-width: 90%;
