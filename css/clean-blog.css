@@ -241,8 +241,8 @@ article img.full {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 94px;
-    letter-spacing: -0.05em;
+    font-size: 105px;
+    letter-spacing: -6px;
   }
 }
 .intro-header .post-heading h1 {
