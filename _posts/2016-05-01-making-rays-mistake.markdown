@@ -27,6 +27,7 @@ readtime:       "14 minutes"
 
 <p>&ldquo;Tiki&rdquo; drinks, those Polynesian-themed fruity cocktails with a thousand ingredients, were ostensibly invented by a single person, Ernest Gantt, in the 1930s. His Los Angeles bar, <i>Don the Beachcomber&rsquo;s</i>, changed cocktail culture with its invention and/or popularization of the mai tai, the zombie, and dozens of other Tiki mainstays still served today. Some of his first employees were four Philippino boys who had the right Polynesian look to serve the themed drinks to Hollywood stars. One of those boys was named Ray Buhen. And Ray, after over twenty years of serving and observing the invention of Tiki drinks, opened his own bar in 1961.</p>
 
+<p>That bar, Tiki-Ti, is still open. It has never moved, expanded, or accepted credit cards. As recently as 2015 it allowed smoking inside, being grandfathered out of the state&rsquo;s non-smoking law, since it only employed family members. It&rsquo;s a living fossil, and I don&rsquo;t say that lightly; next to Vin Scully, it&rsquo;s the single most unspoiled institution, bar or otherwise, I&rsquo;ve ever seen in Los Angeles.</p>
 
 <img src="//union.io/images/repo/20160502-02--1eb258.jpg" class="full" alt="Google Maps view of Tiki-Ti">
 <span class="caption text-muted">Google Maps gave in and added a street view tour of Tiki-Ti&rsquo;s interior. You can see that a Ray&rsquo;s Mistake makes a cameo (left)</span>
