@@ -6,6 +6,9 @@ pre {
   font-size: 16px;
   color: #FCA02A;
 }
+code {
+	font-size: 16px !important;
+}
 
 .syntaxhighlighter {
   padding: .2em 0px !important;
