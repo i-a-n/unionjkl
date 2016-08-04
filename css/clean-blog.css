@@ -1,7 +1,7 @@
 body {
   font-family: 'Yrsa', 'Georgia', 'Times', serif;
-  font-size: 21.5px;
-  color: #474747;
+  font-size: 20px;
+  color: #262626;
 }
 p {
   line-height: 1.5;
@@ -12,20 +12,21 @@ p a {
 }
 article p {
   text-indent: 1em;
-  letter-spacing: -0.002em;
+  letter-spacing: .002em;
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   -webkit-text-rendering: optimizeLegibility;
-  line-height: 1.42;
+  line-height: 1.54;
   font-kerning: normal;
+  font-weight: 200;
   font-variant-ligatures: common-ligatures, contextual;
   font-variant-numeric: oldstyle-nums, proportional-nums;
-  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
-  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
-  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
 }
 @media only screen and (max-width: 615px) {
   article p {
@@ -48,7 +49,7 @@ h6 {
   -webkit-text-rendering: optimizeLegibility;
 }
 a {
-  color: #474747;
+  color: #262626;
 }
 a:hover,
 a:focus {
@@ -175,14 +176,14 @@ article img.full {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #474747;
+    color: #262626;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #6e44ad;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #474747;
+    color: #262626;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -277,7 +278,7 @@ article img.full {
   }
 }
 .post-preview > a {
-  color: #474747;
+  color: #262626;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -306,7 +307,7 @@ article img.full {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #474747;
+  color: #262626;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -446,7 +447,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #474747;
+  background-color: #262626;
   cursor: not-allowed;
 }
 /** utils **/

@@ -5,7 +5,7 @@
 
 body {
 	.serif;
-	font-size: 21.5px;
+	font-size: 20px;
 	color: @gray-dark;
 }
 
@@ -21,7 +21,7 @@ p {
 
 article p {
 	text-indent: 1em;
-	letter-spacing: -.002em;
+	letter-spacing: .002em;
 
 	font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
@@ -30,15 +30,16 @@ article p {
 	text-rendering: optimizeLegibility;
 	-webkit-text-rendering: optimizeLegibility;
 
-	line-height: 1.42;
+	line-height: 1.54;
 	font-kerning: normal;
+	font-weight: 200;
 
 	font-variant-ligatures: common-ligatures, contextual;
 	font-variant-numeric: oldstyle-nums, proportional-nums;
-	-moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
-	-ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
-	-webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
-	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "smcp", "c2sc";
+	-moz-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+	-ms-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+	-webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
 
 	@media only screen and (max-width: 615px) {
 		font-size: .9em;

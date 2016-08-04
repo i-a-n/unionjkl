@@ -2,7 +2,7 @@
 layout:         post
 title:          "Front-End Dev Thought #0000001:"
 subtitle:       "Managing inline SVGs with React/Webpack"
-date:           2016-05-22 12:00:00
+date:           2016-07-22 12:00:00
 header-img:     "img/post-bg-svgs-react-1.jpg"
 thumbnail-img:  "img/post-thumb-svgs-react-1.jpg"
 published:      true
