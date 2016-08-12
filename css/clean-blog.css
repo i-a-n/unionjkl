@@ -13,9 +13,9 @@ p a {
 article p {
   text-indent: 1em;
   letter-spacing: .002em;
-  font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; */
   text-rendering: optimizeLegibility;
   -webkit-text-rendering: optimizeLegibility;
   line-height: 1.54;
