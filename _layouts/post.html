@@ -4,54 +4,56 @@ layout: default
 
 <!-- Post Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="post-heading">
 					{% if page.eyebrow %}
 						<h3 class="eyebrow">{{ page.eyebrow }}</h3>
 					{% endif %}
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                        <hr class="notSmall">
-                        <h3 class="subheading">{{ page.subtitle }}</h3>
-                    {% endif %}
-                    {% if page.readtime %}
-                        <div class="meta">Estimated reading time: {{ page.readtime }}</div>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </div>
+
+					<h1>{{ page.title }}</h1>
+
+					{% if page.subtitle %}
+						<hr class="notSmall">
+						<h3 class="subheading">{{ page.subtitle }}</h3>
+					{% endif %}
+					{% if page.readtime %}
+						<div class="meta">Estimated reading time: {{ page.readtime }}</div>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
 </header>
 
 <!-- Post Content -->
 <article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="meta  meta-dateOnly">{{ page.date | date: "%B %-d, %Y" }}</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="meta  meta-dateOnly">{{ page.date | date: "%B %-d, %Y" }}</div>
 
 				{{ content }}
 
-                <hr>
+				<hr>
 
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
+				<ul class="pager">
+					{% if page.previous.url %}
+						<li class="previous">
+							<a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+						</li>
+					{% endif %}
+					{% if page.next.url %}
+						<li class="next">
+							<a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+						</li>
+					{% endif %}
+				</ul>
 
-            </div>
-        </div>
-    </div>
+			</div>
+		</div>
+	</div>
 </article>
 
 <hr>

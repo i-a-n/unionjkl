@@ -7,7 +7,6 @@ baseurl: ""
 url: "https://blog.union.io"
 twitter_username: union_io
 github_username:  i-a-n
-facebook_username:  65MYA
 
 # Build settings
 markdown: kramdown
