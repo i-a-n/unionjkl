@@ -280,9 +280,19 @@ article img.full {
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
+  margin: 19px 0 0 4px;
 }
 .intro-header .post-heading .meta a {
   color: white;
+}
+.intro-header .post-heading .eyebrow {
+  margin: 0 0 -5px 4px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 8px;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
@@ -300,12 +310,24 @@ article img.full {
   text-decoration: none;
   color: #6e44ad;
 }
+.post-preview > a > .eyebrow {
+  margin: 0 0 -5px 4px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 16px;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
 .post-preview > a > .post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 12px;
   line-height: 89%;
   letter-spacing: -0.005em;
+}
+.post-preview > a > .post-title.withEyebrow {
+  margin-top: 19px;
 }
 .post-preview > a > .post-subtitle {
   margin: 0;

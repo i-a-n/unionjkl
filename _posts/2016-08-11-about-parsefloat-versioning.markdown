@@ -1,7 +1,7 @@
 ---
 layout:         post
-title:          "Front-End Dev Thought #2:"
-subtitle:       "About Using parseFloat() for Versioning..."
+eyebrow:        "Front-End Dev Thought #2:"
+title:          "About Using parseFloat() for Versioning..."
 date:           2016-08-11 12:00:00
 header-img:     "img/post-bg-svgs-react-1.jpg"
 thumbnail-img:  "img/post-thumb-svgs-react-1.jpg"

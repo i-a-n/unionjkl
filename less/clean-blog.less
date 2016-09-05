@@ -316,9 +316,20 @@ body .container {
 			font-style: italic;
 			font-weight: 300;
 			font-size: 20px;
+			margin: 19px 0 0 4px;
 			a {
 				color: white;
 			}
+		}
+
+		.eyebrow {
+			margin: 0 0 -5px 4px;
+			font-weight: 200;
+			letter-spacing: 4px;
+			font-size: 20px;
+			text-transform: uppercase;
+			line-height: 8px;
+			font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
 		}
 
 		@media only screen and (min-width: 768px) {
@@ -342,12 +353,24 @@ body .container {
 			text-decoration: none;
 			color: @brand-primary;
 		}
+		> .eyebrow {
+			margin: 0 0 -5px 4px;
+			font-weight: 200;
+			letter-spacing: 3px;
+			font-size: 18px;
+			text-transform: uppercase;
+			line-height: 16px;
+			font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
+		}
 		> .post-title {
 			font-size: 30px;
 			margin-top: 30px;
 			margin-bottom: 12px;
 			line-height: 89%;
 			letter-spacing: -.005em;
+			&.withEyebrow {
+				margin-top: 19px;
+			}
 		}
 		> .post-subtitle {
 			margin: 0;
