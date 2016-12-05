@@ -32,12 +32,12 @@ includeSyntax:	true
 <img src="https://union.io/images/repo/20161205-08--bb0d1a.jpg" class="full" alt="Wake vs a Markov generator">
 <span class="caption text-muted">A passage from Wake on the left, and a Markov generator on the right.</span>
 
-<p>In many cases, the language generator actually <i>makes more sense</i> than the original text. The output, entirely devoid-of-meaning, seems to equal the original text in substance as well as style. I watched the results coming in, generating more and more text, in a state of disbelief. You could easily insert the computer’s output anywhere within <i>Wake</i>’s 600 pages and practically no one, no one in the world, would be able to tell.</p>
+<p>In many cases, the language generator actually <i>makes more sense</i> than the original text. The output, entirely devoid-of-meaning, seems to equal the original text in substance as well as style. I watched the results coming in—unable to tell the difference between the original and my output more than 80% of the time—in a state of disbelief. You could easily insert the computer’s output anywhere within <i>Wake</i>’s 600 pages and practically no one, no one in the world, would be able to tell.</p>
 
 <img src="https://union.io/images/repo/20161205-07--27bcfa.jpg" class="full" alt="Wake vs a Markov generator">
 <span class="caption text-muted">Can you tell which passage is from Wake, and which is computer-generated?</span>
 
-<p>So does that settle it? Was Joyce a fraud? Is his text, <i>now verifiably nearly-indistinguishable from gibberish</i>, as devoid of narrative as my program’s code? Not so fast.</p>
+<p>So does that settle it? Was Joyce a fraud? Is his text, <i>now indistinguishable from gibberish</i> (for me, anyway), as devoid of narrative as my program’s code? Not so fast.</p>
 
 <p>I’m no English major, but I can recognize a few things we can’t take away from <i>Wake</i>. Firstly, the magnificently inventive vocabulary was entirely Joyce’s own. Sure, my program might be able to <i>reproduce</i> it, but it would never have been able to <i>invent</i> it. Even if the novel itself were meaningless, if you find meaning within a word, that honor belongs entirely to Joyce.</p>
 
@@ -45,6 +45,8 @@ includeSyntax:	true
 
 <img src="https://union.io/images/repo/20161205-06--6cc65e.jpg" class="full" alt="Wake vs a Markov generator">
 <span class="caption text-muted">I have honestly lost my note on which passage is which; I really don’t know which is Joyce and which is Markov-generated.</span>
+
+<p>And thirdly, just because I can’t tell the difference between the two about 80% of the time, that doesn’t mean no one can. There might be literary students who can tell the difference a vast majority of the time. And, even though that shouldn’t affect my personal opinion on the work, it certainly means more learned academics might reach a vastly different conclusion that I do, even with the same data.</p>
 
 <p>In the end, I have to admit my opinion on <i>Wake</i> has changed because of this. I’m willing to accept now, fully, that its internal cohesiveness is no more difficult to generate than nonsense. But, my admiration for it, and certainly for Joyce, has actually appreciated.</p>
 
