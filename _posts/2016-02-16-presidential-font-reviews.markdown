@@ -1,6 +1,7 @@
 ---
 layout:         post
 title:          "The Best and Worst Fonts on the Campaign Trail, Ranked"
+eyebrow:        "Ian Rates Stuff, Episode #02:"
 subtitle:       "Reviewing typefaces from the 2016 Presidential candidates"
 date:           2016-02-16 12:00:00
 header-img:     "img/post-bg-presidential-fonts-1.jpg"

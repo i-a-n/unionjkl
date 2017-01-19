@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "The Five Most Common Human Experiences"
+eyebrow:    "Ian Rates Stuff, Episode #01:"
 date:       2015-08-24 12:00:00
 header-img: "img/post-bg-most-common-human-1.jpg"
 published:  true
