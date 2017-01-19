@@ -1,24 +1,28 @@
 body {
-  font-family: 'Yrsa', 'Georgia', 'Times', serif;
+  font-family: 'Fira Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   color: #262626;
 }
 p {
-  line-height: 1.5;
-  margin: 30px 0;
+  line-height: 1.55;
+  margin: 1.6em 0;
 }
 p a {
   text-decoration: underline;
 }
+p i {
+  font-family: 'Fira Sans Condensed', 'Fira Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0.015em;
+}
 article p {
-  text-indent: 1em;
-  letter-spacing: .002em;
-  /* font-smoothing: antialiased;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; */
+  text-indent: 0;
+  letter-spacing: -0.009em;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   -webkit-text-rendering: optimizeLegibility;
-  line-height: 1.54;
+  line-height: 1.55;
   font-kerning: normal;
   font-weight: 200;
   font-variant-ligatures: common-ligatures, contextual;
@@ -39,14 +43,11 @@ article p:first-of-type {
 }
 article p:first-of-type::first-line {
   font-variant: small-caps;
-  letter-spacing: 1.9px;
-  font-size: 116%;
-  line-height: 24px;
-  font-weight: 500;
+  letter-spacing: .08em;
+  font-weight: 200;
   text-transform: lowercase;
-  font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 h1,
 h2,
@@ -276,9 +277,9 @@ article img.full {
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Yrsa', 'Georgia', 'Times', serif;
+  font-family: 'Fira Sans', 'Helvetica Neue', sans-serif;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   margin: 19px 0 0 4px;
 }
@@ -311,7 +312,7 @@ article img.full {
   color: #6e44ad;
 }
 .post-preview > a > .eyebrow {
-  margin: 0 0 -5px 4px;
+  margin: 35px 0 -5px 4px;
   font-weight: 200;
   letter-spacing: 3px;
   font-size: 18px;

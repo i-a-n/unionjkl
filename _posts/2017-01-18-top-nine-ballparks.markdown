@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "The Nine Greatest Baseball Parks to Catch a Major League Game"
+title:          "The Nine Greatest Baseball Parks to Watch a Major League Game"
 eyebrow:        "Ian Rates Stuff, Episode #03:"
 date:           2017-01-18 12:00:00
 header-img:     "img/post-bg-ballpark-1.jpg"
