@@ -114,14 +114,21 @@ hr.notSmall {
 	margin: 20px auto;
 }
 .illuminated-letter {
-	font-size: 97px;
-	line-height: 36px;
-	margin-right: 16px;
+	font-size: 84px;
+	line-height: 53px;
+	margin-right: 13px;
 	text-shadow: 1px 1px 3px #ffffff, 0px 4px 3px rgba(0, 0, 0, 0.3);
-	color: #6e44ad;
-	font-family: "Elsie Swash", "Georgia", serif;
+	color: @brand-primary;
+	font-family: "Chunk", "Georgia", serif;
 	float: left;
 }
+
+@media only screen and (min-width: 768px) {
+	.illuminated-letter {
+		font-size: 101px;
+	}
+}
+
 .meta-dateOnly {
 	text-align: right;
 	font-weight: bold;
@@ -325,10 +332,10 @@ body .container {
 		.eyebrow {
 			margin: 0 0 -5px 4px;
 			font-weight: 200;
-			letter-spacing: 4px;
-			font-size: 20px;
+			letter-spacing: 3px;
+			font-size: 13px;
 			text-transform: uppercase;
-			line-height: 8px;
+			line-height: 13px;
 			font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
 		}
 
@@ -339,6 +346,12 @@ body .container {
 			.subheading {
 				font-size: 30px;
 			}
+			.eyebrow {
+				line-height: 8px;
+				font-size: 20px;
+				letter-spacing: 4px;
+			}
+
 		}
 	}
 }
