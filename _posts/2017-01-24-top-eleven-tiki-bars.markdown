@@ -11,7 +11,7 @@ readtime:       "8 minutes"
 includeSyntax:	false
 ---
 
-<p><span class='illuminated-letter'>I</span>f you haven’t been to a tiki bar—possibly due to some vague, unfounded fear of walking into a place packed with middle-aged Jimmy Buffet fans in Hawaiian shirts—you’re missing out big time. Like any other type of restaurant, tiki-themed bars come in every size and style: at the Trader Vic’s in the Beverly Hills Hilton, the bartenders wear bowties; at Otto’s Shrunken Head in Manhattan, the mohawked bartender can’t hear you over the Sex Pistols album blaring through the speakers. What I’m saying is, you’re reaching into a mixed bag here.
+<p><span class='illuminated-letter'>I</span>f you haven’t been to a tiki bar—possibly due to some vague, unfounded fear of walking into a place packed with middle-aged Jimmy Buffet fans in Hawaiian shirts—you’re missing out big time. Like any other type of restaurant, tiki-themed bars come in every size and style: at the Trader Vic’s in the Beverly Hills Hilton, the bartenders wear bow ties; at Otto’s Shrunken Head in Manhattan, the mohawked bartender can’t hear you over the Sex Pistols album blaring through the speakers. What I’m saying is, you’re reaching into a mixed bag here.
 </p>
 <p>So, after visiting a whole bunch of them across the country, I thought I’d make a list of my eleven favorite places to get a tropical cocktail in the United States. If you’re lucky enough to find yourself in one of the following cities, do yourself a favor and check out a bar on the list below. You’ll love it. I promise.</p>
 
@@ -48,7 +48,7 @@ includeSyntax:	false
 <p>Full disclosure: <i>Super Power</i> would be considered my “home tiki bar”. But trust me, I’m trying my best to be impartial here.</p>
 <p>Smack in the middle of a predictable Brooklyn neighborhood is this oasis of unpredictability. Brilliant branding, tasty drinks, a pinball machine, and delicious banh mi veggie dogs? All in a non-descript tiki bar that most hipsters would just assume is populated by weird uncles in khaki shorts? Sign me up!</p>
 
-<p>Go there and tell ’em Ian sent ya. They won’t know what you’re talking about and it’ll be weird. Who cares? You’ll be drunk in one drink anyway.</p>
+<p>Go there and tell ’em Ian sent ya. They won’t know what you’re talking about and it’ll be weird. Who cares? You’ll be drunk after one drink anyway.</p>
 
 <h3>#6: Bootlegger Tiki — Palm Springs, CA</h3>
 
@@ -85,13 +85,13 @@ includeSyntax:	false
 <img src="https://union.io/images/repo/20170123-01--2d16c4.jpg" class="full" alt="Tiki-Ti — Los Angeles, CA">
 
 <p>Probably the two most conflicted decisions I’ve ever made in my life were deciding to leave my job of eight years to move across the country, and putting <i>Tiki-Ti</i> in second place instead of first on this list.</p>
-<p>If you don’t know the history of this place, check out <a href="/thoughts/2016/05/01/making-rays-mistake/">my other article</a> about it. Its history, its menu, its culture, its atmosphere, its décor, its <i>everything</i> is impeccable. Truly one-of-a-kind. There has never been another <i>Tiki-Ti</i> and there probably will never be.</p>
+<p>If you don’t know the history of this place, check out <a href="/thoughts/2016/05/01/making-rays-mistake/">my other article</a> about it. Its history, its menu, its culture, its atmosphere, its décor, its <i>everything</i> is impeccable. Truly one-of-a-kind. There has never been another <i>Tiki-Ti</i> and there probably never will be.</p>
 <p>One day I’ll forgive myself for putting it second on my list. But until that day, I can only condole myself with fond memories of my time at the bar I’ve put in first place…</p>
 <h3>#1: Hale Pele — Portland, OR</h3>
 
 <img src="https://union.io/images/repo/20170123-00--f425d8.jpg" class="full" alt="Hale Pele — Portland, OR">
 
-<p>It’s difficult to overstate just how right <i>Hale Pele</i> feels. There’s some pure mood, the perfect combination of relaxed, drunk, nautical kitsch and tropical hokiness that every tiki bar attempts to emulate. <i>Hale Pele</i> serves that mood up with laser-guided precision.</p>
+<p>It’s difficult to overstate just how right <i>Hale Pele</i> feels. There’s some pure mood, the perfect combination of relaxed and drunk, while being immersed in nautical kitsch and tropical hokiness that every tiki bar attempts to emulate. <i>Hale Pele</i> serves that mood up with laser-guided precision. They <i>define</i> that mood.</p>
 <p>From the bridged stream at the entrance, to the special effects thunder-and-rain showers, to the flaming drinks shooting fire ten feet high with each pinch of cinnamon thrown on top; this place nails it. Absolutely, decisively nails every bit of it.</p>
 <p>Giving it first place on my list, ahead of <i>Tiki-Ti</i>, had to come down to a little bit of nit-picking. Yes, <i>Tiki-Ti</i> is cash-only, does not provide bar tabs, has only twelve bar stools, and is only open Wednesday through Saturday. And even though lacking in those four areas lends to its inimitable character, I must admit, <i>Hale Pele</i> wins convenience points by providing them.</p>
 <p>I really don’t know how one place could get everything so right. But this under-the-radar Portland strip mall bar did it. And if you want to experience what I would call the essence of a modern tiki bar, visit <i>Hale Pele</i>, and lose yourself in the rum.
