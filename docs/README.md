@@ -1,6 +1,6 @@
-##This is the union.io Jekyll site. Hi.
+# unionjkl documentation
 
-###Here's the structure:
+### Here’s the structure of the repository:
 ---
 ```
 public_html/
@@ -22,7 +22,7 @@ public_html/
     | - index.html                      // Very basic, only a few lines of front-matter.
 ```
 
-###Here's how to build:
+### Here’s how to build the Jekyll site:
 ---
 1. Get all the files from github: 
 `$ git clone git@github.com:i-a-n/unionjkl.git`
@@ -35,9 +35,9 @@ public_html/
 
 4. Site will live (by default) on http://0.0.0.0:4000/
 
-###Here's how to deploy:
+### Here’s how to deploy:
 ---
-I have .gitignore set to ignore a file called 'deploy.sh' in the root of the project. This would be a good place to put a deploy script. My current one simply builds the site using `jekyll build`, then uses rsync to move the files onto my web server. Here's the dumb, current script:
+I have `.gitignore` set to ignore a file called `deploy.sh` in the root of the project. This would be a good place to put a deploy script. My current one simply builds the site using `jekyll build`, then ensures all the file permissions are right and uses rsync to move the files onto my web server. Here’s the current script:
 
 ```
 #!/bin/bash
@@ -48,4 +48,4 @@ xattr -c img/*
 jekyll build
 rsync -rvp _site/ union.io:/var/www/vhosts/blog.union.io/site
 ```
-End result: I have to manually run `deploy.sh' whenever I want to deploy. Not the coolest thing. But, whatever.
+End result: I have to manually run `./deploy.sh` whenever I want to deploy. Not the coolest thing. But, whatever. It works. For more background info on this repository, check out [my blog post about it](https://blog.union.io/code/2015/12/06/how-to-make-this-website/).
