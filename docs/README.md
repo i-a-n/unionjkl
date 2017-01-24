@@ -42,7 +42,10 @@ I have .gitignore set to ignore a file called 'deploy.sh' in the root of the pro
 ```
 #!/bin/bash
 
+chmod 755 _site/img/*
+chmod 755 img/*
+xattr -c img/*
 jekyll build
-rsync -avp _site/ union.io:/var/www/vhosts/blog.union.io/site
+rsync -rvp _site/ union.io:/var/www/vhosts/blog.union.io/site
 ```
 End result: I have to manually run `deploy.sh' whenever I want to deploy. Not the coolest thing. But, whatever.
