@@ -12,7 +12,7 @@ I usually end up writing about typography, coding, or baseball.
 The site currently deploys to my personal blog, which you can find at https://blog.union.io/
 
 ### When?
-I‘ve been maintaining this repository since December of 2015, but I‘ve included material of mine from as far back as 2010. I typically post about once a month or so.
+I’ve been maintaining this repository since December of 2015, but I’ve included material of mine from as far back as 2010. I typically post about once a month or so.
 
 ### Why?
 If you want to learn how, or why, I made this blog, [check out my post](http://blog.union.io/code/2015/12/06/how-to-make-this-website/). And yes, that post is currently sitting in this repository.
