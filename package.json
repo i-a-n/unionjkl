@@ -1,12 +1,11 @@
 {
-	"name": "clean-blog",
-	"title": "Clean Blog",
+	"name": "unionjkl",
+	"title": "unionjkl",
 	"version": "1.0.0",
-	"homepage": "http://startbootstrap.com",
-	"author": "Start Bootstrap",
+	"homepage": "https://blog.union.io",
+	"author": "Ian M <ian@union.io>",
 	"license": {
 		"type": "Apache 2.0",
-		"url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
 	},
 	"devDependencies": {
 		"grunt": "~0.4.5",
@@ -17,6 +16,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+		"url": "https://github.com/i-a-n/unionjkl.git"
 	}
 }
