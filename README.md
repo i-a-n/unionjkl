@@ -15,10 +15,10 @@ The site currently deploys to my personal blog, which you can find at https://bl
 I’ve been maintaining this repository since December of 2015, but I’ve included material of mine from as far back as 2010. I typically post about once a month or so.
 
 ### Why?
-If you want to learn how, or why, I made this blog, [check out my post](http://blog.union.io/code/2015/12/06/how-to-make-this-website/). And yes, that post is currently sitting in this repository.
+If you want to learn how, or why, I made this blog, [check out my post on those topics](http://blog.union.io/code/2015/12/06/how-to-make-this-website/). And yes, that post is currently sitting in this repository.
 
 ***
 
 #### Further reading
 
-You can check out the `/docs` direcotry for documentation specific to this site. If you have any other questions or thoughtful comments, reach out to me on Twitter or GitHub and say hi.
+You can check out the `/docs` directory for documentation specific to this site. If you have any other questions or thoughtful comments, reach out to me on Twitter or GitHub and say hi.
