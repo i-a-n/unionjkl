@@ -1,4 +1,4 @@
-#union.io: a Jekyll-powered site
+# union.io: a Jekyll-powered site
 
 ### Who?
 My name is Ian. I write code and make fonts and spend all day working at [Typography.com](http://www.typography.com/). You can find me on [Twitter](https://twitter.com/union_io), on [YouTube](https://youtube.com/c/ianm), and in New York City.
