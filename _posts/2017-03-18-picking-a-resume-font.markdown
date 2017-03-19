@@ -105,7 +105,7 @@ includeLightbox: true
 <hr>
 
 <h3>3. Informal sans-serifs</h3>
-<p>This category of fonts (which I just made up for this article) is certainly the safest choice of typefaces I’m profiling. Highly legible, usually quite friendly and always utilitarian, these font families are a stable and reliable option for almost any professional. For résumés in <i>technology</i>, <i>marketing</i>, and many <i>freelance</i> positions I‘d recommend a slightly “quirkier” informal sans-serif:</p>
+<p>This category of fonts (which I just made up for this article) is certainly the safest choice of typefaces I’m profiling. Highly legible, usually quite friendly and always utilitarian, these font families are a stable and reliable option for almost any professional. For résumés in <i>technology</i>, <i>marketing</i>, and many <i>freelance</i> positions I’d recommend a slightly “quirkier” informal sans-serif:</p>
 
 <p class="lessBottomMargin"><b>Non-free:</b></p>
 
@@ -131,8 +131,8 @@ includeLightbox: true
 
 <p class="lessBottomMargin"><b>Non-free:</b></p>
 
-- <a href="http://www.bertholdtypes.com/font/akzidenz-grotesk/proplus/" target="blank" class="underline">Aksidenz Grotesk</a> [<span class="usdMonospace">$$$++</span>]
-- <a href="https://www.myfonts.com/fonts/indian-type-foundry/weissenhof-grotesk/" target="blank" class="underline">Weisenhoff Grotesk</a> [<span class="usdMonospace">$$</span>]
+- <a href="http://www.bertholdtypes.com/font/akzidenz-grotesk/proplus/" target="blank" class="underline">Akzidenz Grotesk</a> [<span class="usdMonospace">$$$++</span>]
+- <a href="https://www.myfonts.com/fonts/indian-type-foundry/weissenhof-grotesk/" target="blank" class="underline">Weissenhof Grotesk</a> [<span class="usdMonospace">$$</span>]
 - <a href="https://www.myfonts.com/search/frutiger/" target="blank" class="underline">Frutiger</a> [<span class="usdMonospace">$$</span>]
 
 <p class="lessBottomMargin"><b>Free:</b></p>
