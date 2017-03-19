@@ -52,6 +52,10 @@
 <script src="{{ " /js/union-syntaxhighlighter-slim.min.js " | prepend: site.baseurl }}"></script>
 {% endif %}
 
+{% if page.includeLightbox %}
+	<script src="{{ " /js/microlite.min.js " | prepend: site.baseurl }}"></script>
+{% endif %}
+
 <!-- google analytics -->
 <script>
 	(function(i, s, o, g, r, a, m) {

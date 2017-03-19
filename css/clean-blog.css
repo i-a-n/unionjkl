@@ -49,6 +49,20 @@ article p:first-of-type::first-line {
   font-smoothing: subpixel-antialiased;
   -webkit-font-smoothing: subpixel-antialiased;
 }
+article p.lessBottomMargin {
+  margin-bottom: 6px;
+}
+.usdMonospace {
+  font-family: monospace;
+  color: forestgreen;
+}
+article b,
+article strong {
+  font-weight: 400;
+}
+article img.inline {
+  display: inline-block;
+}
 h1,
 h2,
 h3,
@@ -501,4 +515,7 @@ form .row:first-child .floating-label-form-group {
 /** utils **/
 .spacer {
   height: 20px;
+}
+.underline {
+  text-decoration: underline;
 }

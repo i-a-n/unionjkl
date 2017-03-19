@@ -5,7 +5,7 @@
 	"homepage": "https://blog.union.io",
 	"author": "Ian M <ian@union.io>",
 	"license": {
-		"type": "Apache 2.0",
+		"type": "Apache 2.0"
 	},
 	"devDependencies": {
 		"grunt": "~0.4.5",
