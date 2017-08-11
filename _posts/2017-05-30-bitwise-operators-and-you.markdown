@@ -2,7 +2,7 @@
 layout:          post
 title:           "Using JavaScript’s Bitwise Operators in Real Life"
 subtitle:        "Let’s pretend we’re machine code programmers!"
-date:            2017-03-30 12:00:00
+date:            2017-05-30 12:00:00
 header-img:      "img/post-bg-bitwise.jpg"
 thumbnail-img:   "img/post-thumb-bitwise.jpg"
 published:       true
