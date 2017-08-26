@@ -519,3 +519,15 @@ form .row:first-child .floating-label-form-group {
 .underline {
   text-decoration: underline;
 }
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.asterisk-spacer {
+  color: #666;
+  font-size: .8em;
+  font-weight: 100;
+  letter-spacing: 1.2em;
+  padding: 40px 0;
+  text-align: center;
+}
