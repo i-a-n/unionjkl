@@ -66,7 +66,7 @@ A Staten Island politician, Councilwoman Debi Rose, didn’t like the name Pizza
 
 This floored me. I literally cannot think of two stupider names. The Staten Island Asdf;lkjhasdfs would be an improvement on those atrocities.
 
-_Big Wheelers_? I’m sorry, are they selling <a href='https://images-na.ssl-images-amazon.com/images/I/51uSZkZcKfL.jpg' target='blank'>plastic tricycles for toddlers</a>? Do you understand how out of touch that sounds? (Probably not, since she called the ballpark a “stadium”.) And _Baby Bombers_?? Is this some kind a sick joke? Will the logo be an American fighter jet carpet-bombing an Iraqi orphanage? Jesus Christ.
+_Big Wheelers_? I’m sorry, are they selling <a href='https://images-na.ssl-images-amazon.com/images/I/51uSZkZcKfL.jpg' target='blank'>plastic tricycles for toddlers</a>? Do you understand how out of touch that sounds? (Probably not, since she called the ballpark a “stadium”.) And _Baby Bombers_?? Is this some kind of sick joke? Will the logo be an American fighter jet carpet-bombing an Iraqi orphanage? Jesus Christ.
 
 I don’t think any of my friends would ever wear anything that said “Baby-Bombers” on it, because they are not savage murderous psychopaths. However, I think every person I know would purchase something that said “Pizza Rats” on it, because of course they would. It’s amazing. It’s hyper-local, unique, and universally recognizable. The fact that an elected official would attempt to override the popular vote-winner to instead suggest the most outrageously tone-deaf replacements is, quite frankly, a bigger disgrace to Staten Island than naming your club after a rat that loves pizza.
 
