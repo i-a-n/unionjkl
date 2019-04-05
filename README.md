@@ -1,7 +1,7 @@
 # union.io: a Jekyll-powered site
 
 ### Who?
-My name is Ian. I write code and love fonts. You can find me on [Twitter](https://twitter.com/union_io), on [YouTube](https://youtube.com/c/ianm), and in New York City.
+My name is Ian. I write code and love fonts. You can find me on [Twitter](https://twitter.com/union_io), on [YouTube](https://youtube.com/c/ianm), and in Los Angeles.
 
 ### What?
 This repository is a heavily customized version of the “Clean Blog” theme, a Jekyll template maintained [here on GitHub](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
