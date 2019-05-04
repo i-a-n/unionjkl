@@ -1,14 +1,15 @@
 ---
-layout:         post
-title:          "The Best and Worst Fonts on the Campaign Trail, Ranked"
-eyebrow:        "Ian Rates Stuff, Episode #02:"
-subtitle:       "Reviewing typefaces from the 2016 Presidential candidates"
-date:           2016-02-16 12:00:00
-header-img:     "img/post-bg-presidential-fonts-1.jpg"
-thumbnail-img:  "img/post-thumb-presidential-fonts-1.jpg"
-published:      true
-category:       Type
-readtime:       "8 minutes"
+layout:         	post
+title:          	"The Best and Worst Fonts on the Campaign Trail, Ranked"
+eyebrow:        	"Ian Rates Stuff, Episode #02:"
+subtitle:       	"Reviewing typefaces from the 2016 Presidential candidates"
+date:           	2016-02-16 12:00:00
+header-img:     	"img/post-bg-presidential-fonts-1.jpg"
+thumbnail-img:  	"img/post-thumb-presidential-fonts-1.jpg"
+published:      	true
+category:       	Type
+readtime:       	"8 minutes"
+show-type-banner:	true
 ---
 
 <p><span class='illuminated-letter'>E</span>ach font a candidate chooses tells a unique story about their personality, their candidacy, and, crucially, their ability to delegate decisions they themselves are not experts on. From worst to best, here are my reviews of the six leading candidates for US President, 2016.</p>

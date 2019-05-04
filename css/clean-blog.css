@@ -458,6 +458,10 @@ footer .copyright {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+.type-banner {
+  padding: .1em 0.8em;
+  background-color: yellow;
+}
 .btn {
   font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   text-transform: uppercase;

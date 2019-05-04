@@ -17,5 +17,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/i-a-n/unionjkl.git"
+	},
+	"dependencies": {
+		"natives": "^1.1.6"
 	}
 }
