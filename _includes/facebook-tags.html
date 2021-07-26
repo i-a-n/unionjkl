@@ -1,7 +1,11 @@
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@union_io" />
-<meta name="twitter:creator" content="@union_io" />
+{% if page.thumbnail-img %}
+	<meta content="{{ site.url }}/{{ page.thumbnail-img }}" property="twitter:image">
+{% else %}
+	<meta content="{{ site.url }}/img/post-thumb-default.png" property="twitter:image">
+{% endif %}
 
 <!-- fb -->
 <meta content="{{ site.title }}" property="og:site_name">

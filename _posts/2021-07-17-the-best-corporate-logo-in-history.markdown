@@ -3,7 +3,7 @@ layout:          post
 title:           "The Best Corporate Logo in History? Easy."
 date:            2021-07-17 12:00:00
 header-img:     "img/post-bg-logo-1.jpg"
-thumbnail-img:  "img/post-thumb-logo.jpg"
+thumbnail-img:  "img/post-thumb-logo.jpg?23"
 published:       true
 category:        Thoughts
 readtime:        "8 minutes"
