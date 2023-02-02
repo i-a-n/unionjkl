@@ -56,7 +56,7 @@ Plus our new Redux library and files
 
 You can already see how this would be a major advancement compared to passing state and `setState` around endlessly.
 
-Okay, but _how does it work?_ What precisely are the mechanicisms responsible for Redux’s behavior? Let’s look at the implementation:
+Okay, but _how does it work?_ What precisely are the mechanisms responsible for Redux’s behavior? Let’s look at the implementation:
 
 ### Parent component
 
@@ -95,13 +95,13 @@ redux/
   ├─ createDispatcher.js 
 </pre>
 
-So we instantiated Redux with `@Root`, which came from `Root.js`. And the two connected components both imported `ReduxContainer` from `Container.js`. `Container.js` gets most of its internals from `createDispatcher.js`. And.. that’s all there is to it. That’s Redux! The shape of our action (in the `_action.js` file), store (`_store.js`) and contant (`_constant.js`) are all very simple, but maybe still mysterious since they seem to be dictated by the Redux internals.
+So we instantiated Redux with `@Root`, which came from `Root.js`. And the two connected components both imported `ReduxContainer` from `Container.js`. `Container.js` gets most of its internals from `createDispatcher.js`. And.. that’s all there is to it. That’s Redux! The shape of our action (in the `_action.js` file), store (`_store.js`) and constant (`_constant.js`) are all very simple, but maybe still mysterious since they seem to be dictated by the Redux internals.
 
 So let’s follow the path of our data, from creation, to update, to return, within the Redux system. And then perhaps we’ll finally feel like we understand Redux.
 
 #### Initializing
 
-The root component, initialized with `@Root`, is straightforward. The majority of its work is [this line](https://codesandbox.io/s/wizardly-tharp-24syyv?file=/src/redux/Root.js:599-643), where it calls a new `createDispatcher` instance from the `createDispatcher.js` file. That’s about it. The only other thing it does, really, is stick that `createDispatcher`, now just called `this.dispatcher`, into its React context. Note: this is an older, [now-deprecated](https://reactjs.org/docs/legacy-context.html) version of React context! Redux doesn’t want you to use this anymore. But the function `getChildContext()` is the old way to ensure that all child components will have access to the `createDispatcher` library.
+The root component, initialized with `@Root`, is straightforward. The majority of its work is [this line](https://codesandbox.io/s/wizardly-tharp-24syyv?file=/src/redux/Root.js:599-643), where it calls a new `createDispatcher` instance from the `createDispatcher.js` file. That’s about it. The only other thing it does, really, is stick that `createDispatcher`, now just called `this.dispatcher`, into its React context. Note: this is an older, [now-deprecated](https://reactjs.org/docs/legacy-context.html) version of React context! React doesn’t want you to use this anymore. But the function `getChildContext()` is the old way to ensure that all child components will have access to the `createDispatcher` library.
 
 #### Create dispatcher
 
@@ -131,7 +131,7 @@ function dispatchAction(...args) {
 }
 </pre>
 
-Why wrap this? Well this way you’re able to pass an action that either returns another function (useful if you want to do things asynchronously, and manually trigger the state update when you’re done), or returns a simple object to be dispatched. You’ll notice our `_action.js` function does the simpler thing and just returns a simple object:
+Why wrap this? Well, this way you’re able to pass an action that either returns another function (useful if you want to do things asynchronously, and then manually trigger the state update (dispatch) when you’re done), or returns a simple object to be dispatched. You’ll notice our `_action.js` function does the simpler thing and just returns a simple object:
 
 <pre class='brush: js'>
 return {
@@ -140,7 +140,7 @@ return {
 };
 </pre>
 
-So all that happens is the object above gets `dispatch`ed. `dispatch` calls `computeNextState`, which I believe to be the actual core of what Redux is, and is therefore worth looking at in detail.
+So all that happens is the object above gets `dispatch`ed. `dispatch` calls `computeNextState`, which I believe to be the actual core of what Redux is, and is therefore worth looking at in more detail.
 
 <pre class='brush: js'>
 function computeNextState(state, action) {
@@ -172,7 +172,7 @@ function numStore(state = initialState, action) {
 }
 </pre>
 
-So in modern Redux, that’s your reducer. And now we finally understand _why reducers are functions!_ Our reducer is _called_ by Redux when it runs that line: `store(state[key], action)`. We pass our reducer the current state (`state[key]`), and then the action (`{ type: SET_RANDOM_NUMBER, number: ... }`). Then the reducer itself does the work, and returns the new state. That’s it. You can think of Redux as just being a bunch of fancy state-handling functions built around this core concept: You can make up your own actions that do things, and your own reducers that handle actions, and just hand them both off to Redux to take care of hooking all of that up and storing/returning state in a predictable way
+So in modern Redux, that’s your reducer. And now we finally understand _why reducers are functions!_ Our reducer is _called_ by Redux when it runs that line: `store(state[key], action)`. We pass our reducer the current state (`state[key]`), and then the action (`{ type: SET_RANDOM_NUMBER, number: ... }`). Then the reducer itself does the work, and returns the new state. That’s it. You can think of Redux as just being a bunch of fancy state-handling functions built around this core concept: You can make up your own actions that do things, and your own reducers that handle actions, and just hand them both off to Redux to take care of hooking all of that up and storing/returning state in a predictable way.
 
 Once the new state has been calculated, it’s passed through to the observer object which is already being passed down to all connected components via the `ReduxContainer` component. And then that update is treated like any other React prop update. No need to get fancy, the data flows like normal props from here out.
 
