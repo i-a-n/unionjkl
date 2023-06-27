@@ -6,11 +6,21 @@ description: "blog.union.io - Tech, design, and typographic anger"
 baseurl: ""
 url: "https://blog.union.io"
 twitter_username: union_io
-github_username:  i-a-n
+github_username: i-a-n
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","deploy.sh","docs"]
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "deploy.sh",
+    "docs",
+  ]
+plugins: [jekyll-paginate]

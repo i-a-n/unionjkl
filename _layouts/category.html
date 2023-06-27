@@ -2,51 +2,56 @@
 layout: default
 ---
 
-
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="site-heading">
-					<h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+<header
+  class="intro-header"
+  style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1>
+            {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{%
+            endif %}
+          </h1>
 
-					{% if page.description %}
-						<hr class="small">
-						<span class="subheading">{{ page.description }}</span>
-					{% endif %}
-				</div>
-			</div>
-		</div>
-	</div>
+          {% if page.description %}
+          <hr class="small" />
+          <span class="subheading">{{ page.description }}</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 
 <!-- Main Content -->
 <div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			{% for post in site.categories.[page.catname] %}
-			<div class="post-preview">
-				<a href="{{ post.url | prepend: site.baseurl }}">
-					{% if post.eyebrow %}
-						<h3 class="eyebrow">
-						{{ post.eyebrow }}
-						</h3>
-					{% endif %}
-					<h2 class="post-title {% if post.eyebrow %}withEyebrow{% endif %}">
-						{{ post.title }}
-					</h2>
-					{% if post.subtitle %}
-						<h3 class="post-subtitle">
-						{{ post.subtitle }}
-						</h3>
-					{% endif %}
-					</a>
-				<p class="post-meta">Published {% if post.category %}in {{ post.category }}, {% endif %}on {{ post.date | date: "%B %-d, %Y" }}</p>
-			</div>
-			<hr> {% endfor %}
-		</div>
-	</div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {% for post in site.categories[page.catname] %}
+      <div class="post-preview">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          {% if post.eyebrow %}
+          <h3 class="eyebrow">{{ post.eyebrow }}</h3>
+          {% endif %}
+          <h2 class="post-title {% if post.eyebrow %}withEyebrow{% endif %}">
+            {{ post.title }}
+          </h2>
+          {% if post.subtitle %}
+          <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+          {% endif %}
+        </a>
+        <p class="post-meta">
+          Published {% if post.category %}in {{ post.category }}, {% endif %}on
+          {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+      </div>
+      <hr />
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
-<hr>
+<hr />

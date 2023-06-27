@@ -53,20 +53,20 @@ All releases technically happen only from minor branches. (Even the release of a
 
 So let’s say we want to do a patch release of version <code>2.3.13</code> in this example. The steps are:
 
-1. Checkout the minor branch from which to cut the release. (Make sure it’s up to date by fetching/pulling if necessary.)
+(1) Checkout the minor branch from which to cut the release. (Make sure it’s up to date by fetching/pulling if necessary.)
 
 <pre class='brush: bash'>
 git checkout 2.3
 </pre>
 
-2. Use <code>git tag</code> to tag the release.
+(2) Use <code>git tag</code> to tag the release.
 
 <pre class='brush: bash'>
 git tag 2.3.13
 git push origin 2.3.13
 </pre>
 
-3. Head back to the minor branch and increment its version in the code.
+(3) Head back to the minor branch and increment its version in the code.
 
 <pre class='brush: bash'>
 git checkout 2.3
