@@ -3,63 +3,84 @@ layout: default
 ---
 
 <!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="post-heading">
-					{% if page.eyebrow %}
-						<h3 class="eyebrow">{{ page.eyebrow }}</h3>
-					{% endif %}
+<header
+  class="intro-header"
+  style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          {% if page.eyebrow %}
+          <h3 class="eyebrow">{{ page.eyebrow }}</h3>
+          {% endif %}
 
-					<h1>{{ page.title }}</h1>
+          <h1>{{ page.title }}</h1>
 
-					{% if page.subtitle %}
-						<hr class="notSmall">
-						<h3 class="subheading">{{ page.subtitle }}</h3>
-					{% endif %}
-					{% if page.readtime %}
-						<div class="meta">Estimated reading time: {{ page.readtime }}</div>
-					{% endif %}
-				</div>
-			</div>
-		</div>
-	</div>
+          {% if page.subtitle %}
+          <hr class="notSmall" />
+          <h3 class="subheading">{{ page.subtitle }}</h3>
+          {% endif %} {% if page.readtime %}
+          <div class="meta">Estimated reading time: {{ page.readtime }}</div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
 </header>
 
 <!-- Post Content -->
 <article>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="meta  meta-dateOnly">{{ page.date | date: "%B %-d, %Y" }}</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% if page.category == "Code" %}
+        <div
+          class="alert alert-info"
+          role="alert"
+          style="text-align: center; font-size: 16px; font-weight: 300"
+        >
+          For more tips and random thoughts on web development, software design
+          and whatever else, follow me on Bluesky:
+          <a href="https://bsky.app/profile/union.io" target="_new"
+            >bsky.app/profile/union.io</a
+          >
+        </div>
+        {% endif %}
+        <div class="meta meta-dateOnly">
+          {{ page.date | date: "%B %-d, %Y" }}
+        </div>
 
-				{{ content }}
+        {{ content }}
 
-				{% if page.show-type-banner %}
-					<div class="type-banner">
-						<p>Looking for typography consultation, direction or customization? Get in touch with me on Twitter: <a href="https://twitter.com/union_io" target="_new">@union_io</a></p>
-					</div>
-				{% endif %}
+        <hr />
 
-				<hr>
-
-				<ul class="pager">
-					{% if page.previous.url %}
-						<li class="previous">
-							<a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-						</li>
-					{% endif %}
-					{% if page.next.url %}
-						<li class="next">
-							<a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-						</li>
-					{% endif %}
-				</ul>
-
-			</div>
-		</div>
-	</div>
+        <ul class="pager">
+          {% if page.previous.url %}
+          <li class="previous">
+            <a
+              href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="{{page.previous.title}}"
+              >&larr; Previous Post</a
+            >
+          </li>
+          {% endif %} {% if page.next.url %}
+          <li class="next">
+            <a
+              href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="{{page.next.title}}"
+              >Next Post &rarr;</a
+            >
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
 </article>
 
-<hr>
+<hr />

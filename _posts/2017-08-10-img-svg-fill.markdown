@@ -1,14 +1,14 @@
 ---
-layout:          post
-title:           "Swapping Fill Color on Image Tag SVGs"
-subtitle:        "A Side Quest in Optimizing Performance for React"
-date:            2017-08-10 12:00:00
-header-img:      "img/post-bg-svgs-react-1.jpg"
-thumbnail-img:   "img/post-thumb-svgs-react-1.jpg"
-published:       true
-category:        Code
-readtime:        "4 minutes"
-includeSyntax:   true
+layout: post
+title: "Swapping Fill Color on Image Tag SVGs"
+subtitle: "A Side Quest in Optimizing Performance for React"
+date: 2017-08-10 12:00:00
+header-img: "img/post-bg-svgs-react-1.jpg"
+thumbnail-img: "img/post-thumb-svgs-react-1.jpg"
+published: true
+category: Code
+readtime: "4 minutes"
+includeSyntax: true
 includeLightbox: false
 ---
 
@@ -24,7 +24,6 @@ One way around this is simply linking to each SVG with an <code>&lt;img></code> 
 <img src="https://union.io/images/repo/20170811-10--c2b89a.png" alt="Inline SVG" class="full">
 <img src="https://union.io/images/repo/20170811-11--4dc36c.png" alt="Linked SVG" class="full">
 <span class="caption text-muted">Inline SVG [above] vs linked SVG.</span>
-
 
 But in doing so we've crippled our ability to manipulate our SVGs. No longer can we add stroke, move shapes, remove nodes or change fill. In short, if you want <code>:hover</code> to change the fill color, you’re back in the stone age. On first blush the only solution would seem to be to load up a different color SVG! This is downright primitive. What are we? Cavemen??
 
@@ -56,7 +55,6 @@ Now, the crux of the whole trick: If `filter` provided us with some kind of `col
 </pre>
 <img src="https://union.io/images/repo/20170811-07--1c7b57.png" alt="Sepia SVG" class="full">
 
-
 So here we are, finally with some color we can manipulate. Using `saturate()` and `hue-rotate()`, we can fiddle with these values until we arrive at the desired color. These can be visually adjusted until you get the right shade, or inspected in software like Photoshop and precisely reverse-engineered. To get a nice bright blue, I used these values:
 
 <pre class='brush: css'>
@@ -66,6 +64,5 @@ So here we are, finally with some color we can manipulate. Using `saturate()` an
 </pre>
 
 <img src="https://union.io/images/repo/20170811-08--62fa2d.png" alt="Blue SVG" class="full">
-
 
 And that's it! <a href="https://codepen.io/ianm/pen/QMgrzq" target="blank">Check my CodePen example</a>, and play around with it to see how you can manipulate the fill color. You now have a super-fast, CSS-only way to change the fill of an SVG, even in an <code>&lt;img></code> tag, supported by every major browser (except IE). Enjoy!
