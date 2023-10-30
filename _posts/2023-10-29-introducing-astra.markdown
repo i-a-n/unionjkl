@@ -4,7 +4,7 @@ title: "Introducing ASTRA"
 subtitle: "The Aggressively Simple Template for React Apps"
 date: 2023-10-29
 header-img: "img/post-bg-svgs-react-1.jpg"
-thumbnail-img: "img/post-thumb-bitwise.png"
+thumbnail-img: "img/post-thumb-bitwise.jpg"
 published: true
 category: Code
 includeSyntax: false
@@ -15,7 +15,7 @@ includeLightbox: true
 
 There are a million "better ways", of course. Every major front end template out there claims to have finally simplified the process of creating a web app, keeping you the developer from any unnecessary complexity or hoop-jumping with their ruthlessly optimized, strongly-opinionated boilerplates.
 
-But this isn't really true. They may have kept complexity away from the developer, but it was just by stashing that complexity elsewhere temporarily. `create-react-app`, the one-time defacto React templating library, essentially just developed a ferociously complicated front end application, packaged all of the configs and scripts up into their own little dependencies—dependlets if you will—and gave you a `package.json` wrapper around them with which to run two or three commmon build-and-serve commands. The _dependlets_ option proved to be a popular one, probably because it meant your top-level template could just import one single depdendlet! Wow, so “““simple”””! Unfortunately, the actual truth is not so simple.
+But this isn't really true. They may have kept complexity away from the developer, but it was just by stashing that complexity elsewhere temporarily. `create-react-app`, the one-time defacto React templating library, essentially just developed a ferociously complicated front end application, packaged all of the configs and scripts up into their own little dependencies—dependlets if you will—and gave you a `package.json` wrapper around them with which to run two or three commmon build-and-serve commands. The _dependlets_ option proved to be a popular one, probably because it meant your top-level template could just import one single dependlet! Wow, so “““simple”””! Unfortunately, the actual truth is not so simple.
 
 They still configure webpack using voodoo magic. They still have to deal with upgrades to babel and jest and enzyme and whatever the hell else. It's all still there. They still firebomb your hard drive with 300+ `node_modules` packages just to serve "Hello world". And if you want to do something differently than the way they planned ("eject", in `create-react-app` language), you better pray there's a tutorial or accurate Stack Overflow answer, and the walkthrough you're currently on step 16/22 of wasn't made obsolete when the React team bumped their dependlet from version `3.4.2` to `3.5.0`.
 
