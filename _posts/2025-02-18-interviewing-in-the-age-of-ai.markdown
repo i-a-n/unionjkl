@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interviewing in the Age of AI"
-date: 2024-07-12
+date: 2025-02-18
 header-img: "img/post-bg-phone-bonfire.jpg"
 thumbnail-img: "img/post-thumb-phone-bonfire.jpg"
 published: true
@@ -18,7 +18,7 @@ The consequences of this new reality are broad and deep. One place in particular
 
 <div class='asterisk-spacer'> * * * </div>
 
-I'm writing this in 2025. After the endless rounds of tech layoffs started by Musk's hostile takeover of Twitter in 2021, the industry as a whole has been much more conservative in its growth forecasting, and hiring across the board has been nearly wiped out for much of the past few years. Just now I'm starting to notice headcounts ticking up generally; I've gotten my first few unsolicited recruiter cold-calls this year for the first time in forever. And even my little team at work got approved to hire two more engineers. So it was time for me to, finally, interview some software engineers again.
+I'm writing this in 2025. After the endless rounds of tech layoffs started by Musk's hostile takeover of Twitter in 2022, the industry as a whole has been much more conservative in its growth forecasting, and hiring across the board has been nearly wiped out for much of the past few years. Just now I'm starting to notice headcounts ticking up generally; I've gotten my first few unsolicited recruiter cold-calls this year for the first time in forever. And even my little team at work got approved to hire two more engineers. So it was time for me to, finally, interview some software engineers again.
 
 But this presented a challenge I've never faced before in my career: Designing a software engineer interview in the age of AI.
 
@@ -26,11 +26,11 @@ There were a few ways my team and I considered approaching the design of a techn
 
 ### 1. Hardline anti-AI, anti-Googling approach
 
-Option 1 was to ask the interviewee to share their screen, and give them the technical challenge at the start of the interview, and ensure they did not use any AI code completion, chat bot, or search engine for the answer. This was the old-school method for conducting an interview in many traditional settings, and might still be the preferred method by older software engineers (like me) who were expected to just know syntax and library-specific methods by heart when they were hired ages ago, so that's what they still expect.
+Option 1 was to ask the interviewee to share their screen, and give them the technical challenge at the start of the interview, and ensure they did not use any AI code completion, chat bot, or search engine for the answer. This was the old-school method for conducting an interview in many traditional settings, and might still be the preferred method by more senior software engineers who were expected to just know syntax and library-specific methods by heart when they were hired ages ago, so that's what they still expect out of candidates.
 
 ### 2. Total disregard for method; results-only approach
 
-Option 2 was to simply disregard the candidate's methods, and only concern ourselves with their result. This method, oddly, is also fairly common among software greybeards. "Take-home tests" are typically brutally difficult, but hey, if the candidate can solve it, they deserve the job, right?
+Option 2 was to simply disregard the candidate's methods, and only concern ourselves with their result. This method, oddly, is also fairly common among software graybeards. "Take-home tests" are typically brutally difficult, but hey, if the candidate can solve it, they deserve the job, right?
 
 ### 3. "Pair-programming"/"whiteboarding" low-code or no-code approach
 
@@ -60,6 +60,6 @@ So here's how we set up the interview:
 
 <div class='asterisk-spacer'> * * * </div>
 
-In the end, I was pretty blown away by the range of skills, competence and proficiency with AI the candidates demonstrated. It was really all over the map; I found it super illuminating to watch them interact with coding tools (every single one of them used at least one coding assistant), and I can truly say that watching them either "just throw it into ChatGPT and copy/paste the response" vs. "provide a descriptive and performant prompt to the coding assistant and verifying the output" was an _enormously_ important difference to note! And even if the _result_ was the same, that first engineer would not succeed in the role. The latter engineer would be a huge asset to your team.
+In the end, I was surprised by the range of skills, competence and proficiency with AI the candidates demonstrated. It was really all over the map; I found it super illuminating to watch them interact with coding tools (every single one of them used at least one coding assistant), and I can truly say that watching them either "just let the assistant auto-complete all the code without checking it" vs. "provide a descriptive and performant prompt to the coding assistant and verifying the output" was an _enormously_ important difference to note! And even if the _result_ was the same, that first engineer would not succeed in the role. The latter engineer would be a huge asset to your team.
 
 And if you didn't let them use AI in the interview, you'd never know the difference.
